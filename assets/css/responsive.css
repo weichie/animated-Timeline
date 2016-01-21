@@ -1,0 +1,254 @@
+
+/* =========================================
+	< 600px
+========================================= */
+@media screen and (max-height: 650px){
+	.home .content{
+		margin-top: -50px;
+	}
+}
+/* =========================================
+	< 800px
+========================================= */
+@media screen and (max-height: 800px){
+	.intro{
+		padding-top: 5vh;
+	}
+}
+
+
+/* =========================================
+	> 1800px
+========================================= */
+@media screen and (min-width: 1800px){
+	body 		{font-size: 1.6em;}
+	.container 	{width: 1600px;}
+	.social 	{top: -54px;}
+	.intro 		{padding-left: 70%;}
+	.intro h1{
+		line-height: 1em;
+		font-size: 3em;
+	}
+	.intro p{
+		color: #fff;
+		font-weight: 300;
+	}
+	.home-info,
+	.home-img,
+	.home-bg,
+	.ges-img,
+	.bottom-galerij [class*="col-"] {
+		height: 500px;
+	}
+	.home-info 		{padding: 120px 80px;}
+	.home-info h2 	{margin-top: 0;}
+	.home-info p{
+		font-weight: 300;
+		font-size: 1.2em;
+		color: #999;
+	}
+	.kijker [class*="col-"],
+	.overview [class*="col-"],
+	.home-bg [class*="col-"]{
+		height: 500px;
+	}
+	[class*="kijker-"],
+	[class*="over-"],
+	[class*="homebg-"]{
+		height: 500px;
+	}
+	[class*="kijker-"]:hover a .inner,
+	[class*="over-"]:hover a .inner,
+	[class*="homebg-"]:hover a .inner{
+		margin-top: -100px;
+	}
+
+	[class*="kijker-"] a,
+	[class*="over-"] a,
+	[class*="homebg-"] a{
+		padding-top: 250px;
+	}
+	footer 	{padding-top: 250px;}
+
+}
+
+
+/* =========================================
+	> 1430px
+========================================= */
+@media screen and (max-width: 1430px){
+	.container 	{width: 80%;}
+	.intro 		{padding-left: 60%;}
+}
+
+
+/* =========================================
+	> 1200px
+========================================= */
+@media screen and (max-width: 1200px){
+	.container 	{width: 90%;}
+	.logo img 	{width: 100%;}
+	.main-nav 	{border-right: none;}
+	.main-nav a {padding: 5px 10px;}
+	.social{
+		right: 0;
+		top: -85px;
+	}
+}
+
+/* =========================================
+	> 980px
+========================================= */
+@media screen and (max-width: 980px){
+	.container 	{width: 95%;}
+	.kijker p 	{width: 60%;}
+	.intro 		{padding-left: 50%;}
+}
+
+/* =========================================
+	> 910px
+========================================= */
+@media screen and (max-width: 910px){
+	.main-nav{
+		position: relative;
+		right: -80px;
+	}
+	.soc 	{border: none;}
+	.main-nav img{
+		display: none;
+	}
+}
+
+/* =========================================
+	> 860px
+========================================= */
+@media screen and (max-width: 860px){
+	.main-nav 	{right: -40px;}
+}
+
+/* =========================================
+	> 810px
+========================================= */
+@media screen and (max-width: 810px){
+	nav 		{position: absolute;}
+	nav a{
+		display: block;
+		width: 100%;
+		padding: 5px;
+	}
+	.main-nav 	{right: 0;}
+}
+
+/* =========================================
+	> 767px
+========================================= */
+@media screen and (max-width: 767px){
+	.logo{
+		padding-top: 5px;
+	}
+	.logo img 	{
+		width: 200px !important;
+	}
+	.social{
+		right: -10px;
+		top: -110px;
+		width: 100px;
+	}
+	.intro{
+		padding-left: 20%;
+		margin-top: 0;
+	}
+	.rez{
+		display: block !important;
+		height: 50px;
+	}
+	.rez{
+		font-size: 1.5em !important;
+		color: #fff !important;
+	}
+	.home .content{
+		margin-top: 0;
+	}
+	nav{
+		position: relative;
+		top: -5px;
+		left: 0;
+	}
+	nav a{
+		display: none !important;
+	}
+	.more a{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.more-right{
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	footer,
+	footer .adres{
+		text-align: center;
+	}
+	footer .adres{
+		margin-bottom: 25px;
+	}
+}
+
+/* =========================================
+	> 500px
+========================================= */
+@media screen and (max-width: 500px){
+	.home header{height: 100vh;}
+	.page header{height: 100vh;}
+	.logo img 	{width: 180px !important;}
+	.social 	{display: none;}
+	.intro{
+		padding-left: 20%;
+		margin-top: -5vh;
+	}
+	.rez{
+		display: block !important;
+		height: 50px;
+	}
+	.rez{
+		font-size: 1.5em !important;
+		color: #fff !important;
+	}
+	nav{
+		position: relative;
+		top: -5px;
+		left: 0;
+	}
+	nav a 			{display: none !important;}
+	.timeline h2 	{width: 80%;}
+
+	.ss-container:before{
+	    background: transparent;
+	}
+	.ss-left, .ss-right	{width: 100%;}
+	.ss-right 			{padding-left: 0;}
+	.ss-left 			{float: left;}
+	.bolleke 			{display: none;}
+	.jaartal{
+		text-align: center;
+	}
+	.timeline .ss-right h3:after {
+		border-color: rgba(7, 3, 2, 0);
+		border-bottom-color: #070302;
+		border-width: 10px;
+		margin-right: -40px;
+		margin-top: -36px;
+	}
+
+	.timeline .ss-left h3:after {
+		border-color: rgba(7, 3, 2, 0);
+		border-top-color: #070302;
+		border-width: 10px;
+		margin-left: -40px;
+		margin-top: 18px;
+	}
+	.atelier-info 	{padding: 50px;}
+	.contact-form 	{padding: 50px 25px;}
+}
